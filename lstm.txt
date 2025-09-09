@@ -2,7 +2,8 @@
 LSTM stands for Long Short-Term Memory.
 It’s a special kind of neural network used to process sequences of data (like text, speech, or time series).
 
-👉 Think of it as a memory system for AI, designed to remember important things for a long time and forget unimportant things.
+👉 Think of it as a memory system for AI, designed to remember important
+things for a long time and forget unimportant things.
 
 🤔 Why was LSTM created? (The Idea Behind It)
 Before LSTM, we had RNNs (Recurrent Neural Networks) for handling sequences.
@@ -79,5 +80,6 @@ The input gate decides what new notes to write.
 The output gate decides which notes to use for answering the teacher right now.
 
 👉 In short:
-LSTM = an RNN with memory superpowers, able to remember important things for a long time while ignoring noise.
+LSTM = an RNN with memory superpowers, able to remember important things for a 
+long time while ignoring noise.
 
