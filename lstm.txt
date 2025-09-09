@@ -1,20 +1,15 @@
 🧠 What is LSTM?
 LSTM stands for Long Short-Term Memory.
 It’s a special kind of neural network used to process sequences of data (like text, speech, or time series).
-
 👉 Think of it as a memory system for AI, designed to remember important
 things for a long time and forget unimportant things.
 
 🤔 Why was LSTM created? (The Idea Behind It)
 Before LSTM, we had RNNs (Recurrent Neural Networks) for handling sequences.
-
 Problem: RNNs forget long-term information (they only remember recent words).
-
 Example: In the sentence:
 “I was born in India. … I speak fluent ___.”
-
 RNN may forget “India” by the time it reaches the blank.
-
 This is called the vanishing gradient problem (the memory fades away during training).
 
 💡 LSTM was invented (in 1997 by Hochreiter & Schmidhuber) to fix this problem.
@@ -24,21 +19,14 @@ It can store important info for long sequences and decide what to forget.
 An LSTM cell has a memory box (cell state) and three gates that control the flow of information:
 
 Forget Gate 🗑️
-
 Decides what information to throw away.
-
 Example: “The weather is sunny… oh wait, not relevant for predicting the next word.”
 
 Input Gate 📝
-
 Decides what new information to add to memory.
-
 Example: “Oh, the sentence mentioned India → I should store that.”
-
 Output Gate 📤
-
 Decides what part of the memory should be used for the current prediction.
-
 Example: “Since I stored India earlier, the blank is likely ‘Hindi’ or another Indian language.”
 
 🧩 Example
